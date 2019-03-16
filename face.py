@@ -67,7 +67,6 @@ class MainWindows(QMainWindow, Ui_MainWindow):
         self.CameraButton.toggled.connect(self.start_camera)
         self.CameraButton.setCheckable(True)
 
-
     def load_out(self):
         with open('encodings.pkl', 'wb') as f:
             pickle.dump(self.cv_thread.known_face_encodings, f)
@@ -82,8 +81,6 @@ class MainWindows(QMainWindow, Ui_MainWindow):
                 self.cv_thread.known_face_names = pickle.load(f)
         except IOError:
             print("Files not found")
-
-
 
     def change_model(self):
         pass
@@ -176,16 +173,9 @@ class MainWindows(QMainWindow, Ui_MainWindow):
         self.known_face_names = list1
 
 
-
-
-
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     app.setStyle(QStyleFactory.keys()[2])
     window = MainWindows()
     window.show()
     sys.exit(app.exec_())
-
-
-
-

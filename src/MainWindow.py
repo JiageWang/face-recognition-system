@@ -8,6 +8,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
+
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -206,4 +207,3 @@ class Ui_MainWindow(object):
         self.loadInButton.setText(_translate("MainWindow", "导入"))
         self.batchRegisterButton.setText(_translate("MainWindow", "批量注册"))
         self.infoLabel.setText(_translate("MainWindow", "当前人员"))
-

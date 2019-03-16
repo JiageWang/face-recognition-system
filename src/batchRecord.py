@@ -5,6 +5,7 @@ from .util import get_encodings
 
 class BatchRecordThead(QThread):
     sin_out_tuple = pyqtSignal(tuple)
+
     def __init__(self):
         super(BatchRecordThead, self).__init__()
 
@@ -14,8 +15,3 @@ class BatchRecordThead(QThread):
             return
         known_face_names, known_face_encodings = get_encodings(path)
         self.sin_out_tuple.emit((known_face_names, known_face_encodings))
-
-
-
-
-

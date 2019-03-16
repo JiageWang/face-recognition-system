@@ -1,4 +1,4 @@
-from PyQt5.QtGui import QImage,QRegExpValidator, QPixmap, QIcon
+from PyQt5.QtGui import QImage, QRegExpValidator, QPixmap, QIcon
 from PyQt5.QtCore import QRegExp
 from PyQt5.QtWidgets import *
 from .recordUI import Ui_Record
@@ -30,10 +30,9 @@ class RecordForm(QDialog, Ui_Record):
                 for person in self.marks:
                     for points, positions in person.items():
                         for position in positions:
-
                             cv2.circle(self.frame, position, 2, (0, 255, 0), thickness=2)
                 top, right, bottom, left = self.location[0]
-                self.face_img = self.frame[top-35:bottom+35, left-35:right+35, :]
+                self.face_img = self.frame[top - 35:bottom + 35, left - 35:right + 35, :]
         except IndexError:
             QMessageBox.question(self, 'Warning', "未检测到关键点",
                                  QMessageBox.Yes, QMessageBox.Yes)
@@ -52,7 +51,6 @@ class RecordForm(QDialog, Ui_Record):
                                qformat)
             self.FrameLabel.setPixmap(QPixmap.fromImage(out_image))
             self.FrameLabel.setScaledContents(True)
-
 
         # 正则表达式限制输入
         name_regx = QRegExp('^[\u4e00-\u9fa5]{1,10}$')
@@ -73,9 +71,3 @@ class RecordForm(QDialog, Ui_Record):
 
     def closeEvent(self, event):
         self.close()
-
-
-
-
-
-

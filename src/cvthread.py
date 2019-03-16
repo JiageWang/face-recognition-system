@@ -8,7 +8,7 @@ import numpy as np
 
 
 class CVThead(QThread):
-    '''多线程处理图像文件夹'''
+    '''多线程处理图像'''
     sin_out_names = pyqtSignal(list)
     sin_out_frame = pyqtSignal(np.ndarray)
     sin_out_pixmap = pyqtSignal(QPixmap)  # 自定义信号，执行run()函数时，从相关线程发射此信号
