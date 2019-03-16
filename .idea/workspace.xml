@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e579d774-78c0-45a2-8e45-dcd32ffb0e65" name="Default Changelist" comment="Default Changelist">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/face.py" beforeDir="false" afterPath="$PROJECT_DIR$/face.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainWindow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/batchRecord.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/batchRecord.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cvthread.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/cvthread.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/record.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/record.py" afterDir="false" />
-    </list>
+    <list default="true" id="e579d774-78c0-45a2-8e45-dcd32ffb0e65" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +47,7 @@
     <session id="507163065">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -170,11 +163,6 @@
             <path>
               <item name="face-recognition-system-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="face-recognition-system-master" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="face-recognition-system-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="face-recognition-system-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -358,19 +346,25 @@
       <option name="project" value="LOCAL" />
       <updated>1542763644551</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Default Changelist">
+      <created>1552734421790</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552734421790</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="735" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16329831" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18936877" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18936877" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39959225" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

@@ -8,6 +8,7 @@ Face recognition system for registration and registration
 * pip install -r requirements
 
 ## Usage
+python face.py
 * "注册" for registering preson online
 * "批量注册" for registering people with a folder of image named with label
 * "导入" for saving current record
