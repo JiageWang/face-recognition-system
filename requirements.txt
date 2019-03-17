@@ -1,0 +1,3 @@
+dlib
+face_recognition
+PyQt5
