@@ -1,3 +1,4 @@
 dlib
+opencv-python
 face_recognition
 PyQt5

@@ -4,7 +4,7 @@ Face recognition system for registration and registration
 
 ## Installation：
 * install python3.5
-* install cmake
+* [install cmake and put its path into the system environment variable](https://blog.csdn.net/m0_37407756/article/details/79790417)
 * pip install -r requirements
 
 ## Usage

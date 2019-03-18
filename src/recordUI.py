@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'record.ui'
+# Form implementation generated from reading ui file 'recordUI.ui'
 #
 # Created by: PyQt5 UI code generator 5.11.3
 #
@@ -11,9 +11,9 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_Record(object):
     def setupUi(self, Record):
         Record.setObjectName("Record")
-        Record.resize(358, 434)
+        Record.resize(351, 433)
         self.groupBox = QtWidgets.QGroupBox(Record)
-        self.groupBox.setGeometry(QtCore.QRect(0, 0, 371, 441))
+        self.groupBox.setGeometry(QtCore.QRect(-10, 0, 371, 421))
         self.groupBox.setTitle("")
         self.groupBox.setObjectName("groupBox")
         self.FrameLabel = QtWidgets.QLabel(self.groupBox)
@@ -21,7 +21,7 @@ class Ui_Record(object):
         self.FrameLabel.setStyleSheet("background:black;")
         self.FrameLabel.setObjectName("FrameLabel")
         self.gridLayoutWidget = QtWidgets.QWidget(self.groupBox)
-        self.gridLayoutWidget.setGeometry(QtCore.QRect(80, 360, 201, 41))
+        self.gridLayoutWidget.setGeometry(QtCore.QRect(80, 350, 201, 41))
         self.gridLayoutWidget.setObjectName("gridLayoutWidget")
         self.gridLayout = QtWidgets.QGridLayout(self.gridLayoutWidget)
         self.gridLayout.setContentsMargins(0, 0, 0, 0)
@@ -34,7 +34,7 @@ class Ui_Record(object):
         self.label_3.setObjectName("label_3")
         self.gridLayout.addWidget(self.label_3, 0, 0, 1, 1)
         self.DialogBox = QtWidgets.QDialogButtonBox(self.groupBox)
-        self.DialogBox.setGeometry(QtCore.QRect(100, 410, 156, 23))
+        self.DialogBox.setGeometry(QtCore.QRect(100, 390, 156, 23))
         self.DialogBox.setStandardButtons(QtWidgets.QDialogButtonBox.Cancel|QtWidgets.QDialogButtonBox.Ok)
         self.DialogBox.setObjectName("DialogBox")
 
