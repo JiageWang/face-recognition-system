@@ -1,19 +1,14 @@
-# face-recognition-system
-Face recognition system for registration and registration
-![AZSqpV.png](https://s2.ax1x.com/2019/03/16/AZSqpV.png)
-
-## Installation：
-* install python3.5
-* [install cmake and put its path into the system environment variable](https://blog.csdn.net/m0_37407756/article/details/79790417)
-* pip install -r requirements
-
+# Face Recogniton System
+It is a face recognition system using mtcnn and arcface
+![mNZlcT.gif](https://s2.ax1x.com/2019/08/21/mNZlcT.gif)
+## Dependence
+* numpy
+* opencv
+* pytorch
+* pyqt5
 ## Usage
-python face.py
-* "注册" for registering preson online
-* "批量注册" for registering people with a folder of image named with label
-* "导入" for saving current record
-* "导出" for loading exist record
-
-
-
-
+1. download [arcface model](https://pan.baidu.com/s/1K974fl6pKeEIDp44Qb9DXg) and put it to libs/arcface/weight
+2. run `python main.py`
+## Reference
+* [mtcnn](https://github.com/TropComplique/mtcnn-pytorch)
+* [arcface](https://github.com/ronghuaiyang/arcface-pytorch)
