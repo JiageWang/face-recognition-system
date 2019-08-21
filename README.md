@@ -1,6 +1,6 @@
 # Face Recogniton System
 It is a face recognition system using mtcnn and arcface
-![mNZlcT.gif](https://s2.ax1x.com/2019/08/21/mNZlcT.gif)
+![demo.gif](demo.gif)
 ## Dependence
 * numpy
 * opencv
