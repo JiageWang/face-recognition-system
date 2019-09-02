@@ -2,7 +2,6 @@ import time
 
 import cv2
 import numpy as np
-import openpyxl
 
 
 def compare_embedding(embedding, facebank, threshold=0.7):
@@ -31,28 +30,28 @@ def show_bboxes(img, bounding_boxes, facial_landmarks, names):
     return img
 
 
-def new_excel():
-    workbook = openpyxl.Workbook()
-    sheet = workbook.create_sheet(title='打卡记录')
-    del workbook['Sheet']
-
-    sheet["A1"].value = time.strftime('%Y-%m-%d', time.localtime())
-    sheet["A2"].value = "工号"
-    sheet["B2"].value = "姓名"
-    sheet["C2"].value = "打卡时间"
-    return workbook
-
-
-def add_excel_row(excel_file, info):
-    '''主要逻辑实现'''
-    workbook = openpyxl.load_workbook(excel_file)  # 先打开已存在的表
-    sheet = workbook['Sheet1']
-    row = sheet.max_row + 1
-    print(row)
-
-    sheet.cell(row=row, column=1, value=info.get('工号'))
-    sheet.cell(row=row, column=2, value=info.get('姓名'))
-    # sheet.cell(row=row, column=3, value=info.get(''))
-    sheet.cell(row=row, column=4, value=info.get('部门名称'))
-    sheet.cell(row=row, column=5, value=info.get('岗位名称'))
-    workbook.save(excel_file)
+# def new_excel():
+#     workbook = openpyxl.Workbook()
+#     sheet = workbook.create_sheet(title='打卡记录')
+#     del workbook['Sheet']
+#
+#     sheet["A1"].value = time.strftime('%Y-%m-%d', time.localtime())
+#     sheet["A2"].value = "工号"
+#     sheet["B2"].value = "姓名"
+#     sheet["C2"].value = "打卡时间"
+#     return workbook
+#
+#
+# def add_excel_row(excel_file, info):
+#     '''主要逻辑实现'''
+#     workbook = openpyxl.load_workbook(excel_file)  # 先打开已存在的表
+#     sheet = workbook['Sheet1']
+#     row = sheet.max_row + 1
+#     print(row)
+#
+#     sheet.cell(row=row, column=1, value=info.get('工号'))
+#     sheet.cell(row=row, column=2, value=info.get('姓名'))
+#     # sheet.cell(row=row, column=3, value=info.get(''))
+#     sheet.cell(row=row, column=4, value=info.get('部门名称'))
+#     sheet.cell(row=row, column=5, value=info.get('岗位名称'))
+#     workbook.save(excel_file)

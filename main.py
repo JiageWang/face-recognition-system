@@ -1,5 +1,4 @@
 import os
-import time
 
 import cv2
 import sys
@@ -9,7 +8,7 @@ from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 
 from libs import FaceModel
-from libs.utils.utils import show_bboxes, new_excel, compare_embedding
+from libs.utils.utils import show_bboxes, compare_embedding
 from windwos.record_window import RecordForm
 from ui.main_window import Ui_MainWindow
 
